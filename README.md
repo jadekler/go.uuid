@@ -37,7 +37,7 @@ import (
 
 func main() {
 	// Creating UUID Version 4
-	u1 := uuid.NewV4()
+	u1, _ := uuid.NewV4()
 	fmt.Printf("UUIDv4: %s\n", u1)
 
 	// Parsing UUID from string input
